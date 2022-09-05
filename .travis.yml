@@ -13,11 +13,11 @@ install:
 before_script:
   - echo "Build Starts"
   - echo "Installing Dependencies for udagram feed"
-  - cd udagram-api-feed && npm install --f && cd..
+  - cd udagram-api-feed && npm install --f && cd ..
   - echo "Installing dependencies for udagram user"
-  - cd udagram-api-user && npm install --f && cd..
+  - cd udagram-api-user && npm install --f && cd ..
   - echo "Installing dependencies for udagram frontend"
-  - cd udagram-frontend && npm install --f && cd..
+  - cd udagram-frontend && npm install --f && cd ..
 
 script:
   - docker --version # print the version for logging
