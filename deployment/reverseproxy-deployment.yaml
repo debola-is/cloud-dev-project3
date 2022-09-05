@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: docker.io/adebola079/reverseproxy:v1
+        image: docker.io/newthingade/reverseproxy
         ports:
         - containerPort: 80
         resources:
